@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link} from "react-router-dom";
 import "./index.css";
 import App from "./App";
-//import {Card, Image, Icon} from 'semantic-ui-react';
+import 'bootstrap/dist/css/bootstrap.css';
 
 ReactDOM.render(
   <Router>
